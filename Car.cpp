@@ -452,6 +452,7 @@ Car::~Car()
 					}
 				} while (tempID > 9 || tempID < 0);
 				arrNumbIDtemp[i] = tempID;
+				this->infoCar->arrNumbID[i] = tempID;
 			}
 		} //while (true);
 		
